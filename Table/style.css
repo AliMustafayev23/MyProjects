@@ -1,0 +1,36 @@
+td {
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.edit,
+.delet {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.edit {
+    background-color: green;
+}
+
+.edit:hover {
+    background-color: lightgreen;
+}
+
+.delet {
+    background-color: red;
+}
+
+.delet:hover {
+    background-color: rgb(212, 36, 36);
+}
+
+body {
+    display: flex;
+}
